@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html itemscope itemtype="http://schema.org/Article">
 <head>
   <title>2016 Super Bowl – Google Trends</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" href="app.f31e8749.css" />
+  <link rel="stylesheet" href="app.ae29f120.css" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
   <meta property="og:title" content="Google Trends - Replay the Super Bowl" />
   <meta property="og:url" content="http://googletrends.github.io/superbowl/" />
   <meta property="og:image" content="http://googletrends.github.io/superbowl/images/og-img.jpg" />
   <meta property="og:description" content="Replay the #SuperBowl with this interactive from @GoogleTrends" />
+  <meta itemprop="name" content="Google Trends - Replay the Super Bowl">
+  <meta itemprop="description" content="Replay the #SuperBowl with this interactive from @GoogleTrends">
+  <meta itemprop="image" content="http://googletrends.github.io/superbowl/images/og-img.jpg">
 </head>
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -23,7 +26,7 @@
           </span>
           <div class="mdl-layout-title-spacer"></div> 
           <span class="mdl-layout-title spb-title">
-            Super Bowl
+            Super Bowl 50
           </span>
           <div class="mdl-layout-title-spacer"></div>
           <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect spb-share show-modal">Share</a>
@@ -77,6 +80,7 @@
                 <h2 id="spb-event-title" class="mdl-card__title-text mdl-color-text--white">Super Bowl search activity</h2>
               </div>
               <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                <p id="spb-event-description"></p>
 
                 <p>What were people searching for during the Super Bowl?</p>
 
@@ -97,7 +101,7 @@
             </div>
           </div>
           <div class="spb-footer">
-            <p>Built with love by <a href="http://interactiveunicorn.com" target="_blank">Unicorn Interactive</a>. <a href="https://github.com/unicorninteractive/superbowl/blob/master/credits.md" target="_blank">Image attribution credits.</a></p>
+            <p>Built by <a href="http://interactiveunicorn.com" target="_blank">Unicorn Interactive</a>.</p>
           </div>
         </div>
       </main>
@@ -105,7 +109,7 @@
 
    <dialog class="mdl-dialog">
       <div class="mdl-dialog__content">
-        <p>Share</p>
+        <h4 style="margin-top: 0;">Share</h4>
       </div>
       <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
         <button type="button" class="mdl-button spb-facebook-share">Facebook</button>
@@ -115,7 +119,7 @@
       </div>
     </dialog>
 
-    <script src="global.41f6ba99.js"></script>
+    <script src="global.d1ac6db9.js"></script>
     <script src="material.8231e384.js"></script>
     <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-72316407-2', 'auto');ga('send', 'pageview');</script>
   </body>
